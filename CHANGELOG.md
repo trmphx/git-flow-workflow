@@ -8,6 +8,10 @@ All notable changes to this project will be documented in this file.
 
 - `HISTORY.md` for storing the previously executed command.
 
+### Changed
+
+- Update `README.md`
+
 ## [v0.1.0] - _2024-03-21_
 
 ### Added

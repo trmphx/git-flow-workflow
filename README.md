@@ -23,3 +23,9 @@ In Git flow, the `main` branch is created at the start of a project and is maint
 <p align="center">
     <img src="images/main_branch.png" alt="The main/master branch" width="275"/>
 </p>
+
+## The `develop` branch
+
+The `develop` branch is created at the start of a project and is maintained throughout the development process, and contains pre-production code with newly developed features that are in the process of being tested.
+
+Newly-created features should be based off the `develop` branch, and then merged back in when ready for testing.
