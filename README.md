@@ -30,6 +30,16 @@ The `develop` branch is created at the start of a project and is maintained thro
 
 Newly-created features should be based off the `develop` branch, and then merged back in when ready for testing.
 
+## The `feature` branch
+
+The `feature` branch is the most common type of branch in the Git flow workflow. It is used when adding new features to your code.
+
+When working on a new feature, you will start a `feature` branch off the `develop` branch, and then merge your changes back into the `develop` branch when the feature is completed and properly reviewed.
+
+<p align="center">
+    <img src="images/feature_branch.png" alt="The feature branch" width="120"/>
+</p>
+
 ## The `hotfix` branch
 
 In Git flow, the `hotfix` branch is used to quickly address necessary changes in your `main` branch.
