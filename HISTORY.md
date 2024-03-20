@@ -3,5 +3,5 @@
 The previously executed command:
 
 ```sh
-$ git checkout -b hotfix/hotfix-1 main
+$ git checkout main && git merge --no-ff hotfix/hotfix-1
 ```

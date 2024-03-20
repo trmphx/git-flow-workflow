@@ -23,3 +23,13 @@ In Git flow, the `main` branch is created at the start of a project and is maint
 <p align="center">
     <img src="images/main_branch.png" alt="The main/master branch" width="275"/>
 </p>
+
+## The `hotfix` branch
+
+In Git flow, the `hotfix` branch is used to quickly address necessary changes in your `main` branch.
+
+The base of the `hotfix` branch should be your `main` branch and should be merged back into both the `main` and `develop` branches. Merging the changes from your `hotfix` branch back into the `develop` branch is critical to ensure the fix persists the next time the `main` branch is released.
+
+<p align="center">
+    <img src="images/hotfix_branch.png" alt="The hotfix branch" width="275"/>
+</p>
