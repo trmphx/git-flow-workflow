@@ -3,5 +3,5 @@
 The previously executed command:
 
 ```sh
-$ git checkout -b release/v1.0.0 develop
+$ git checkout develop && git merge --no-ff release/v1.0.0
 ```
