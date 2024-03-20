@@ -3,5 +3,5 @@
 The previously executed command:
 
 ```sh
-$ git checkout -b feature/feature-1 develop
+$ git checkout -b feature/feature-2 develop
 ```
