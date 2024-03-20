@@ -24,6 +24,26 @@ In Git flow, the `main` branch is created at the start of a project and is maint
     <img src="images/main_branch.png" alt="The main/master branch" width="275"/>
 </p>
 
+## The `develop` branch
+
+The `develop` branch is created at the start of a project and is maintained throughout the development process, and contains pre-production code with newly developed features that are in the process of being tested.
+
+Newly-created features should be based off the `develop` branch, and then merged back in when ready for testing.
+
+## The `feature` branch
+
+The `feature` branch is the most common type of branch in the Git flow workflow. It is used when adding new features to your code.
+
+When working on a new feature, you will start a `feature` branch off the `develop` branch, and then merge your changes back into the `develop` branch when the feature is completed and properly reviewed.
+
+<p align="center">
+    <img src="images/feature_branch.png" alt="The feature branch" width="120"/>
+</p>
+
+## The `release` branch
+
+The `release` branch should be used when preparing new production releases. Typically, the work being performed on `release` branches concerns finishing touches and minor bugs specific to releasing new code, with code that should be addressed separately from the main `develop` branch.
+
 ## The `hotfix` branch
 
 In Git flow, the `hotfix` branch is used to quickly address necessary changes in your `main` branch.
