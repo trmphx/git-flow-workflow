@@ -40,6 +40,10 @@ When working on a new feature, you will start a `feature` branch off the `develo
     <img src="images/feature_branch.png" alt="The feature branch" width="120"/>
 </p>
 
+## The `release` branch
+
+The `release` branch should be used when preparing new production releases. Typically, the work being performed on `release` branches concerns finishing touches and minor bugs specific to releasing new code, with code that should be addressed separately from the main `develop` branch.
+
 ## The `hotfix` branch
 
 In Git flow, the `hotfix` branch is used to quickly address necessary changes in your `main` branch.
