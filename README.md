@@ -29,3 +29,13 @@ In Git flow, the `main` branch is created at the start of a project and is maint
 The `develop` branch is created at the start of a project and is maintained throughout the development process, and contains pre-production code with newly developed features that are in the process of being tested.
 
 Newly-created features should be based off the `develop` branch, and then merged back in when ready for testing.
+
+## The `hotfix` branch
+
+In Git flow, the `hotfix` branch is used to quickly address necessary changes in your `main` branch.
+
+The base of the `hotfix` branch should be your `main` branch and should be merged back into both the `main` and `develop` branches. Merging the changes from your `hotfix` branch back into the `develop` branch is critical to ensure the fix persists the next time the `main` branch is released.
+
+<p align="center">
+    <img src="images/hotfix_branch.png" alt="The hotfix branch" width="275"/>
+</p>
