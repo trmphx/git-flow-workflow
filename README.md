@@ -39,3 +39,12 @@ The base of the `hotfix` branch should be your `main` branch and should be merge
 <p align="center">
     <img src="images/hotfix_branch.png" alt="The hotfix branch" width="275"/>
 </p>
+
+## References
+
+- [A Successful Git Branching Model](https://nvie.com/posts/a-successful-git-branching-model)
+- [What Is Git Flow](https://www.gitkraken.com/learn/git/git-flow)
+- [Semantic Versioning](https://semver.org)
+- [Keep A Changelog](https://keepachangelog.com)
+- [Conventional Commits](https://www.conventionalcommits.org)
+- [Papers With Code](https://portal.paperswithcode.com)
